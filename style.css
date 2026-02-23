@@ -97,6 +97,7 @@ h1 {
 }
 
 .cta-button {
+    transition: transform 0.3s ease-in-out;
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -106,12 +107,12 @@ h1 {
     font-weight: 600;
 }
 
-.secondary {
-    background-color: var(--secondary-color);
+.cta-button:hover {
+    transform: scale(1.04)
 }
 
-.cta-button:hover {
-    transform: scale(1.05);
+.secondary {
+    background-color: var(--secondary-color);
 }
 
 section {
@@ -201,5 +202,4 @@ footer a:hover {
     h2 {
         font-size: 1.5rem;
     }
-
 }
